@@ -1,0 +1,52 @@
+.blueS {
+	background-color: #2b3f55;
+}
+.truncateM {
+	white-space: nowrap;
+	overflow: scroll;
+	font-weight: 400;
+}
+.truncateS {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+button {
+	background-color: white;
+	color: gray;
+	border: 0;
+	padding: 0;
+}
+button:focus {
+	outline: none;
+}
+button.equal {
+	background-color: #ffc107;
+}
+button.right {
+	background-color: #2b3f55;
+}
+button.top {
+	background-color: #f8f9fa;
+}
+input {
+	border: 0;
+	text-align: right;
+}
+input:focus {
+	outline: none;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 0px;
+	height: 4px;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: gray;
+	border-radius: 10px;
+}
